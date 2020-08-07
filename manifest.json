@@ -2,7 +2,7 @@
   "name": "Create Chrome Extension",
   "version": "1.0",
   "description": "Starter kit for creating a chrome extension. Great for those who are trying different approaches to chrome extensions.",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "permissions": ["declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false

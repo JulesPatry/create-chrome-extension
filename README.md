@@ -16,7 +16,7 @@ The first place to look to understand a Chrome extension is the `manifest.json` 
   "name": "Create Chrome Extension",
   "version": "1.0",
   "description": "Starter kit for creating a chrome extension. Great for those who are trying different approaches to chrome extensions.",
-  "permissions": ["storage"],
+  "permissions": ["declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
@@ -38,6 +38,7 @@ The first place to look to understand a Chrome extension is the `manifest.json` 
   },
   "manifest_version": 2
 }
+
 ```
 
 ## Background Listeners
