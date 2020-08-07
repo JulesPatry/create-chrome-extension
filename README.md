@@ -3,6 +3,7 @@
 ## Why does this repo exist?
 
 This repository's purpose is for engineers who want to quickly develop and chew bubble gum.
+
 Jules Patry is the creator of this repository.
 
 ## Getting started
@@ -66,3 +67,7 @@ The `permission` key in the `manifest.json` file is a property reserved to acces
 ## page_action
 
 `page_action` is the ui of the chrome extension which in this repository's case is `popup.js`. Note that `popup.js` has a script tag sourcing to `popup.js` which simply access the local storage for a color that was set in `background.js`.
+
+## More Examples!
+
+[For more examples of chrome extensions, check here!](https://developer.chrome.com/extensions/samples#page-redder)
