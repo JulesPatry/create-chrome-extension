@@ -16,16 +16,29 @@ The first place to look to understand a Chrome extension is the `manifest.json` 
   "name": "Create Chrome Extension",
   "version": "1.0",
   "description": "Starter kit for creating a chrome extension. Great for those who are trying different approaches to chrome extensions.",
-  "permissions": ["storage"],
+  "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
   "page_action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/test-16.png",
+      "32": "images/test32.png",
+      "48": "images/test48.png",
+      "128": "images/test128.png"
+    }
+  },
+  "icons": {
+    "16": "images/test-16.png",
+    "32": "images/test32.png",
+    "48": "images/test48.png",
+    "128": "images/test128.png"
   },
   "manifest_version": 2
 }
+
 
 ```
 
