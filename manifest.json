@@ -8,7 +8,19 @@
     "persistent": false
   },
   "page_action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/test-16.png",
+      "32": "images/test32.png",
+      "48": "images/test48.png",
+      "128": "images/test128.png"
+    }
+  },
+  "icons": {
+    "16": "images/test-16.png",
+    "32": "images/test32.png",
+    "48": "images/test48.png",
+    "128": "images/test128.png"
   },
   "manifest_version": 2
 }

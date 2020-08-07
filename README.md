@@ -2,7 +2,8 @@
 
 ## Why does this repo exist?
 
-Chrome extensions is yet another way to solve problems with technology. This repository is meant for engineers who want to quickly get started and start chewing bubble gum.
+Chrome extensions are yet another way to solve problems with technology. This repository is meant for engineers who want to quickly get started and start chewing bubble gum.
+Jules Patry is the creator of this repository.
 
 ## Getting started
 
